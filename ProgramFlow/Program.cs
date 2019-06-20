@@ -36,7 +36,17 @@ namespace ProgramFlow
                     Console.WriteLine("Sorry, thats wrong!");
                 }
             }
-            
+            /*
+            switch(guessNumber)
+            {
+                case (1):
+                    Console.WriteLine("does something");
+                    break;
+                default:
+                    Console.WriteLine("got to default");
+                    break;
+            }
+            */
 
             Console.WriteLine("Press any key to end the program");
             Console.ReadLine();
